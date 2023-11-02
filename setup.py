@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup
 
-
 setup(
     name='rq-scheduler',
     version='0.13.1',
@@ -19,7 +18,7 @@ setup(
     rqscheduler = rq_scheduler.scripts.rqscheduler:main
     ''',
     package_data={'': ['README.rst']},
-    install_requires=['crontab>=0.23.0', 'rq>=0.13', 'python-dateutil', 'freezegun'],
+    install_requires=['rq>=0.13', 'python-dateutil', 'freezegun'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Console',

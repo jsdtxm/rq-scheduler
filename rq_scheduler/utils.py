@@ -1,11 +1,11 @@
 import calendar
-import crontab
-import dateutil.tz
-
-from datetime import datetime, timedelta
 import logging
+from datetime import datetime, timedelta
 
+import dateutil.tz
 from rq.logutils import ColorizingStreamHandler
+
+from . import embed_crontab as crontab
 
 
 # from_unix from times.from_unix()
