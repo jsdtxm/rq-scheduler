@@ -2,7 +2,7 @@
 from setuptools import setup
 
 setup(
-    name='rq-scheduler',
+    name='rq-scheduler-embed',
     version='0.13.1',
     author='Selwin Ong',
     author_email='selwin.ong@gmail.com',
